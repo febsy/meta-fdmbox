@@ -5,6 +5,8 @@ include recipes-core/images/core-image-minimal.bb
 IMAGE_INSTALL += " \
 	kernel-modules \
 	octoprint \
+	nano \
+	openssh-sftp \
 	"
 
 #SPLASH = "psplash-fdmbox"
