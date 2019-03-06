@@ -22,3 +22,8 @@ do_install_append(){
     sed -i 's,/opt/,/opt/,g'  ${D}/opt/start_octoprint.sh
 
 }
+
+# we do not have a camera, so we remove the following packages from the rfs
+BAD_RECOMMENDS = "ffmpeg \
+                  mjpg-streamer \
+                  "

@@ -7,6 +7,7 @@ IMAGE_INSTALL += " \
 	octoprint \
 	nano \
 	openssh-sftp \
+	usbutils \
 	"
 
 #SPLASH = "psplash-fdmbox"
